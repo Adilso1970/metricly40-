@@ -1,11 +1,19 @@
 {
+  "name": "metricly40",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -s public -o storybook-static",
-    "deploy-storybook": "surge ./storybook-static seu-subdominio.surge.sh"
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "next": "^15.3.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^7.0.0"
   }
 }
-
