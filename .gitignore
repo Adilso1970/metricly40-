@@ -1,0 +1,14 @@
+# pastas de dependências
+node_modules/
+
+# builds, caches e outputs
+.next/
+.storybook/
+storybook-static/
+
+# configurações locais do Vercel
+.vercel/
+
+# logs
+*.log
+
